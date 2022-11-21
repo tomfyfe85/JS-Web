@@ -1,3 +1,5 @@
+const add = require('./add')
+const multiply = require('./multiply')
 // console.log doesn't print anything on the page
 // it is not meant to be visible to the user, but for you
 // to help in debugging and getting visibility in your JS code.
@@ -6,3 +8,4 @@
 
 console.log('Hello from the developer console!');
 console.log(new Date());
+console.log(multiply(add(6, 20), 9))
