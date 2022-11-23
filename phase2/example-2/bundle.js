@@ -17,6 +17,10 @@
           newP.innerText = "This paragraph was blahhh";
           this.mainContainerEl.append(newP);
         }
+        clearParagraphs() {
+          const clearP = document.querySelectorAll("p");
+          clearP.forEach((p) => p.remove());
+        }
       };
       module.exports = View2;
     }
