@@ -18,4 +18,6 @@ describe('notes Model class', () => {
     model.reset();
     expect(model.reset()).toEqual([])
   });
+
+  
 });

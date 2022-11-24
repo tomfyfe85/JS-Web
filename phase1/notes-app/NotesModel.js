@@ -1,16 +1,16 @@
 class NotesModel {
-  constructor(myArray = []){
+  constructor(myArray = []) {
     this.myArray = myArray;
   }
-  addNotes(thing){
-    this.myArray.push(thing)
-  } 
-  getNotes(){
-    return this.myArray
+  addNotes(thing) {
+    this.myArray.push(thing);
   }
-  reset(){
-    this.myArray = []
-    return this.myArray
+  getNotes() {
+    return this.myArray;
+  }
+  reset() {
+    this.myArray = [];
+    return this.myArray;
   }
 }
 
