@@ -5,6 +5,7 @@
 const fs = require("fs");
 const NotesModel = require("./NotesModel");
 const NotesView = require("./NotesView");
+const NotesClient = require("./NotesClient")
 
 describe("displayNotes", () => {
   it("displays the notes", () => {
@@ -54,3 +55,18 @@ describe("displayNotes", () => {
     expect(document.querySelectorAll("div.note").length).toEqual(2);
   });
 });
+
+describe('displayNotesFromApi', () => {
+  it('calls loadsNotes(callback) on the NotesClient class', () => {
+//  arrange -
+// initiate NotesClient 
+// initiate NotesModel
+// initiate NotesView
+// call loadNotes(callback)
+
+
+
+
+
+  } )
+})

@@ -22,7 +22,7 @@ class MessageView {
     newDiv.id = 'message'
     newDiv.innerText = newInput;
 
-   document.querySelector('#message-input').value = '';
+    document.querySelector('#message-input').value = '';
     
     const mainContainerEl = document.querySelector('#main-container')
     mainContainerEl.append(newDiv)
